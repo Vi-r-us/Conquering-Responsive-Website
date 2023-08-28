@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+  margin: 0px;
+  padding: 0px;
+}
+
+.container {
+  width: 100%;
+
+  background: #23424A;
+  padding: 9.25em 7.625em;
+}
+
+.wrapper {
+  width: 50%;
+}
+
+.title {
+  color: white;
+  font-size: 3rem;
+  font-weight: 900;
+}
+.sub-title {
+  margin-top: 1.3em;
+  color: rgba(255, 255, 255, 0.85);;
+  font-size: 1.3rem;
+  line-height: 150%;
+  font-family: 400;
+}
+.learn-btn {
+  border-radius: 31.5px;
+  border: none;
+
+  background: #38CFD9;
+  color: #072A2D;
+
+  margin-top: 3.125em;
+  padding: 16px 48px;
+
+  font-family: Roboto;
+  font-size: 1.3rem;
+  font-weight: 700;
+
+  line-height: 150.188%; /* 31.539px */
+  letter-spacing: 1.05px;
+  text-transform: uppercase;
+}
