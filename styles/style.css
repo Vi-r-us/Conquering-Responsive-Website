@@ -8,18 +8,20 @@ body {
   padding: 0px;
 }
 
-.container {
+
+/* First Section */
+.wrapper {
   width: 100%;
   padding: 6.25em 0;
   background: #23424A;
 }
 
-.wrapper {
+.container {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
 }
-.container__text {
+.wrapper__text {
   width: 60%;
 }
 
@@ -28,7 +30,6 @@ body {
   font-size: 3rem;
   font-weight: 900;
 }
-
 .sub-title {
   margin-bottom: 3rem;
   color: rgba(255, 255, 255, 0.85);
@@ -51,4 +52,26 @@ body {
 }
 .learn-btn:hover, .learn-btn:focus {
   opacity: .75;
+}
+
+/* Second Section */
+.three-col {
+  padding: 3em 0;
+  text-align: center;
+}
+.three-col h2 {
+  color: #87629A;
+  font-weight: 900;
+}
+.row {
+  display: flex;
+  gap: 1.875em;
+}
+
+/* Third Section */
+.two-col {
+  padding: 3em 0;
+  background-color: #136C72;
+  color: white;
+  text-align: center;
 }
