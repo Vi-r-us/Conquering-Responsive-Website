@@ -146,3 +146,19 @@ header {
 .sidebar h2, .sidebar p {
   color: white;
 }
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .row {
+    display: block;
+  }
+  .wrapper__img, 
+  .wrapper__text,
+  .primary-content, 
+  .sidebar {
+    width: 100%;
+  }
+  .wrapper__img {
+    margin-top: 2em;
+  }
+}
