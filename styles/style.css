@@ -17,10 +17,6 @@ h2 {
 img {
   width: 100%;
 }
-header {
-  background: #136c72;
-  padding: 1em 0;
-}
 
 .txt-pad {
   padding: 3em 0;
@@ -30,48 +26,18 @@ header {
   width: 80%;
   max-width: 1100px;
   margin: 0 auto;
+  /* added for nav-toggle positioning */
+  position: relative;
 }
 .row {
   display: flex;
   justify-content: space-between;
   gap: 1.875em;
 }
-
-/* Header Section */
-.logo {
-  height: auto;
-  margin: 0;
-  padding: 0;
-  display: flex;
-}
-.nav {
-  width: 100%;
-  align-items: center;
+.row[direction="row"] {
+  flex-direction: row;
 }
 
-.nav__list {
-  margin: 0;
-  padding: 0;
-  font-size: .9rem;
-  list-style: none;
-  justify-content: start;
-  gap: 1em;
-}
-.nav__list--primary {
-  margin: 0 auto;
-}
-
-.nav__link {
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-.nav__link--button {
-  background: #fff;
-  color: #136c72;
-  padding: 0.25em 1em;
-  border-radius: 10em;
-}
 
 /* First Section */
 .wrapper {
